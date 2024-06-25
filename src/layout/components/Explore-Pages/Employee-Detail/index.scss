@@ -1,0 +1,131 @@
+.employee-detail-card {
+  background-color: #000000cd;
+  color: white;
+  border-radius: 30px;
+  padding: 25px !important;
+  // padding-left: 30px !important;
+  // padding-right: 30px !important;
+  // padding-top: 20px;
+  // padding-bottom: 30px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.detail_employee {
+  h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+  }
+}
+
+.btn_download {
+  background-color: #59fed5;
+  width: 150px;
+  height: 40px;
+  border-radius: 12px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  border: none;
+  color: rgb(5, 5, 5);
+}
+
+.designation_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dg_name {
+  padding-bottom: 2%;
+  h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+  }
+}
+
+.details_head {
+  color: rgb(87, 85, 85);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.details_para {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.card_css {
+  padding: 8% 4% 4% 4%;
+  border-radius: 20px !important;
+  width: 100%;
+}
+.card_cols {
+  display: flex;
+  justify-content: center;
+}
+.checkin_card {
+  background-color: rgb(50, 50, 50) !important;
+
+  h1 {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  p {
+    color: rgb(150, 152, 154);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.sytm_img {
+  background-color: #707070;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.button_cols {
+  display: flex;
+  justify-content: space-between;
+
+  .form-control {
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 100% */
+    background-color: rgb(10, 10, 10) !important;
+    border: 1px solid rgb(59, 58, 58);
+  }
+}

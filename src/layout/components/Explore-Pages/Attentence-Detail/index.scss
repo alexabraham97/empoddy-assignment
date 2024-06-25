@@ -1,0 +1,132 @@
+.attendance-history-card {
+  background-color: #0d0d0d;
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.attendance_list {
+  display: flex;
+  justify-content: center;
+}
+.attendance_item {
+}
+.attentence_card_col {
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  border-radius: 16px;
+}
+.badge-success {
+  background-color: #8ce89733;
+  color: #59fed5;
+}
+
+.badge-warning {
+  background-color: #ffc10746;
+  color: #e1ee79e0;
+}
+
+.badge-danger {
+  background-color: #d8d8d820;
+  color: #a4a4a4;
+}
+
+.btn_light {
+  background-color: #000000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  border: 1px solid rgb(76, 75, 75);
+  color: white;
+  margin-left: 10px; /* Adjust as needed */
+}
+
+.button_cols_attentence {
+  display: flex;
+  justify-content: end;
+}
+.attentence_date {
+  gap: 20px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.check_in_out {
+  h1 {
+    color: rgb(146, 146, 146);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  p {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
+
+.attentence_status {
+  display: flex;
+  justify-content: end;
+
+  h1 {
+    display: flex;
+    width: 101px;
+    height: 32px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border: none;
+    width: 70px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+  }
+}
+
+.page-item {
+  border: 1px solid rgb(122, 120, 120);
+  margin-right: 8px;
+  border-radius: 4px;
+  color: #fff !important;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.pagination_row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.page-item .MuiPaginationItem-root,
+.page-link .MuiPaginationItem-root {
+  color: rgb(145, 144, 144);
+  background-color: black;
+  margin: 0 8px;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.page-link .MuiPaginationItem-root {
+  border-color: rgb(117, 116, 116);
+  border-radius: 8px;
+}
